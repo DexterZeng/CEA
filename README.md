@@ -2,12 +2,12 @@
 
 This is the source code for ICDE 2020 paper Collective Embedding-based Entity Alignment via Adaptive Features ([CEA](https://arxiv.org/abs/1912.08404)).
 
-The code is based on the old version of [GCN-Align](https://github.com/1049451037/GCN-Align)
+The code is based on the old version of [GCN-Align](https://github.com/1049451037/GCN-Align). 
 The datasets are obtained from [BootEA](https://github.com/nju-websoft/BootEA) and [RSN](https://github.com/nju-websoft/RSN).
 
 stringsim.py generates string similarity matrix between entity names.
 
-main.py generates the alignment accuracy. 
+main.py generates the alignment results. 
 
 Before running main.py, you need to generate name_vec.txt, the entity name embeddings for entities in each dataset. 
 It should be placed under the directory of each dataset.
