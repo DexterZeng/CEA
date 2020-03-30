@@ -16,7 +16,7 @@ The format of name_vec.txt is
 [entity id]\t[entity identifier]\t[embedding vectors seperated by space]
 ```
 
-If you want to use the entity name embeddings in our paper, please refer to the zip file. Note that for DBP15K datasets, the name embeddings should be read in the following way (similar to [RDGCN](https://github.com/StephanieWyt/RDGCN)):
+If you want to use the entity name embeddings in our paper, please download from [here](https://share.weiyun.com/5qxLmEI). Note that for DBP15K datasets, the name embeddings should be read in the following way (similar to [RDGCN](https://github.com/StephanieWyt/RDGCN)):
 ```
 with open(file='./data/' + Config.language + '/' + Config.language.split('_')[0] + '_vectorList.json',
 	  mode='r', encoding='utf-8') as f:
