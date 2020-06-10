@@ -28,10 +28,16 @@ with open(file='./data/' + Config.language + '/' + Config.language.split('_')[0]
 
 If you find our work useful, please kindly cite it as follows:
 ```
-@inproceedings{CEA,
-	Author = {Weixin Zeng and Xiang Zhao and Jiuyang Tang and Xuemin Lin},
-	Booktitle = {ICDE 2020},
-	Title = {Collective Entity Alignment via Adaptive Features},
-	Year = {2020}
+@inproceedings{DBLP:conf/icde/Zeng0T020,
+  author    = {Weixin Zeng and
+               Xiang Zhao and
+               Jiuyang Tang and
+               Xuemin Lin},
+  title     = {Collective Entity Alignment via Adaptive Features},
+  booktitle = {36th {IEEE} International Conference on Data Engineering, {ICDE} 2020,
+               Dallas, TX, USA, April 20-24, 2020},
+  pages     = {1870--1873},
+  publisher = {{IEEE}},
+  year      = {2020},
 }
 ```
